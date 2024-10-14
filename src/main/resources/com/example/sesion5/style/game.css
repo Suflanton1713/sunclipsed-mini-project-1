@@ -1,0 +1,98 @@
+#gameBackground{
+    -fx-image: url('../images/animatedBackground.gif');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+    -fx-border-width: 100;
+    -fx-border-radius: 20;
+    -fx-border-color: maroon;
+}
+
+#sunEclipsedImage{
+    -fx-image: url('../sunEclipse/SunclipsedFrame1.png');
+    -fx-border-color: blue;           /* Define el color del borde */
+    -fx-border-style: solid;          /* Define el estilo del borde */
+    -fx-border-width: 40;              /* Define el grosor del borde */
+    -fx-border-radius: 2px;
+}
+
+#backButton{
+    -fx-background-image: url("../images/backButtonDesign.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 99.9% 99.9%;
+    -fx-background-color: black;
+    -fx-border-width: 0;
+    -fx-alignment: CENTER;
+}
+
+#backButton:hover{
+    -fx-opacity: 0.8;
+}
+#anchorPane{
+    -fx-background-image: url("../images/backgroundGui.png");
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+}
+
+#hintsButton{
+    -fx-background-image: url("../images/hintsButtonDesign.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 99.9% 99.9%;
+    -fx-border-width: 0;
+    -fx-background-color: black;
+    -fx-alignment: CENTER;
+}
+
+#hintsButton:hover{
+    -fx-opacity: 0.8;
+}
+.letterDefaultInputField{
+    -fx-background-image: url("../images/inputDesign.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 99.9% 99.9%;
+    -fx-border-width: 0;
+    -fx-alignment: CENTER;
+}
+
+
+#hintsLabel{
+    -fx-background-image: url("../images/hintsAvalaibleDesign.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 99.9% 99.9%;
+    -fx-border-width: 0;
+    -fx-alignment: CENTER;
+}
+
+.winClass{
+    -fx-image: url("../images/winImage.png");
+}
+
+.loseClass{
+    -fx-image: url("../images/loseImage.png");
+
+}
+.letterWrongInputField{
+    -fx-background-image: url("../images/inputBrokenDesign.png");
+    -fx-background-color: purple;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 99.9% 99.9%;
+    -fx-border-width: 0;
+    -fx-alignment: CENTER;
+
+}
+
+.letterCorrectInputField{
+    -fx-background-image: url("../images/inputBrightingDesign.png");
+    -fx-background-color: purple;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 99.9% 99.9%;
+    -fx-border-width: 0;
+
+}
+

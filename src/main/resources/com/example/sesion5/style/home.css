@@ -1,0 +1,54 @@
+
+#startButton{
+    -fx-background-size: cover;
+    -fx-background-color: none;
+    -fx-background-repeat:no-repeat;
+    -fx-background-image:url('../images/playButton.png');
+    -fx-background-insets: 10;
+    -fx-alignment: center;
+
+}
+
+#startButton:hover{
+    -fx-opacity: 90%;
+}
+
+#tittleImage{
+    -fx-image: url('../images/tittle.png');
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-alignment: center;
+
+
+}
+
+.secretWordInput{
+    -fx-background-image: url("../images/inputDesign.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 99.9% 99.9%;
+    -fx-font-size: 20 ;
+    -fx-prompt-text-fill: black;
+    -fx-font-family: "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    letter-spacing: 1px;
+    -fx-font-weight: bold;
+
+}
+
+#startButton:hover{
+    -fx-opacity: 0.9;
+}
+
+#alertLabel{
+    -fx-color-label-visible: white;
+}
+
+
+#backgroundPane{
+    -fx-background-image: url('../images/backgroundHome.png');
+    -fx-background-repeat:no-repeat ;
+    -fx-background-size: cover;
+}
+
